@@ -152,9 +152,11 @@ body {
   text-align: center;
   text-transform: uppercase;
   color: #fff;
+  text-decoration: none;
   background: none;
   margin-left: 78px;
   padding: 11px 32px;
+  word-spacing: 0px;
 }
 
 .lots {
@@ -164,12 +166,6 @@ body {
 .lots__heading {
   font-size: 27px;
   padding-left: 40px;
-}
-.lots__card-list {
-  margin-top: 27px;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 25px;
 }
 
 .lots__card-list-item {
@@ -277,8 +273,7 @@ body {
   list-style: none;
 }
 .footer__menu {
-    text-align: center;
-  
+  text-align: center;
 }
 
 .footer__social-list {
@@ -291,7 +286,6 @@ body {
   list-style: none;
 }
 .footer__menu-list-item-url {
-text-underline-offset: 5px;
-text-decoration-thickness: 0px;
+  text-underline-offset: 5px;
+  text-decoration-thickness: 0px;
 }
-
