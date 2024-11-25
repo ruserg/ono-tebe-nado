@@ -33,3 +33,6 @@ img {
   width: 100%;
 }
 
+address {
+  font-style: normal; /* chrome добавляет свой стиль, нужно для сброса */
+}
